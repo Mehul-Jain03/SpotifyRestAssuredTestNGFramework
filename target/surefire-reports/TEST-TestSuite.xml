@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.815" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.554" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/test-classes:/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/classes:/Users/mehuljain/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/mehuljain/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mehuljain/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/mehuljain/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mehuljain/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mehuljain/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mehuljain/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/mehuljain/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/mehuljain/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/mehuljain/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/mehuljain/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/mehuljain/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/mehuljain/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/mehuljain/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/mehuljain/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/mehuljain/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mehuljain/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mehuljain/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/mehuljain/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mehuljain/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/mehuljain/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/mehuljain/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mehuljain/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/mehuljain/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/mehuljain/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/mehuljain/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/mehuljain/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.class.path" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/test-classes:/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/classes:/Users/mehuljain/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/mehuljain/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mehuljain/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/mehuljain/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mehuljain/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mehuljain/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mehuljain/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/mehuljain/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/mehuljain/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/mehuljain/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/mehuljain/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/mehuljain/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/mehuljain/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/mehuljain/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/mehuljain/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/mehuljain/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mehuljain/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mehuljain/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/mehuljain/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mehuljain/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/mehuljain/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/mehuljain/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mehuljain/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/mehuljain/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/mehuljain/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/mehuljain/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/mehuljain/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/surefire/surefirebooter7256995069670921967.jar /Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/surefire 2021-08-29T23-45-24_740-jvmRun1 surefire9392281810601620725tmp surefire_01807880736996843016tmp"/>
+    <property name="sun.java.command" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/surefire/surefirebooter10562794610753660997.jar /Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/surefire 2021-08-30T20-00-50_649-jvmRun1 surefire6654155702034676750tmp surefire_015886986958088723430tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/test-classes:/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/classes:/Users/mehuljain/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/mehuljain/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mehuljain/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/mehuljain/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mehuljain/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mehuljain/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mehuljain/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/mehuljain/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/mehuljain/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/mehuljain/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/mehuljain/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/mehuljain/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/mehuljain/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/mehuljain/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/mehuljain/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/mehuljain/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mehuljain/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mehuljain/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/mehuljain/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mehuljain/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/mehuljain/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/mehuljain/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mehuljain/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/mehuljain/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/mehuljain/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/mehuljain/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/mehuljain/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/test-classes:/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/classes:/Users/mehuljain/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/mehuljain/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mehuljain/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/mehuljain/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mehuljain/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/mehuljain/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mehuljain/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/mehuljain/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/mehuljain/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mehuljain/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mehuljain/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/mehuljain/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/mehuljain/.m2/repository/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/mehuljain/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/mehuljain/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/mehuljain/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/mehuljain/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/mehuljain/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/mehuljain/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/mehuljain/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/mehuljain/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/mehuljain/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/mehuljain/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/mehuljain/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mehuljain/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/mehuljain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mehuljain/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/mehuljain/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mehuljain/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/mehuljain/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/mehuljain/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/mehuljain/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mehuljain/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/mehuljain/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/mehuljain/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/mehuljain/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/mehuljain/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mehuljain"/>
     <property name="user.language" value="en"/>
@@ -24,13 +24,12 @@
     <property name="java.version.date" value="2021-07-20"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework"/>
+    <property name="basedir" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/target/surefire/surefirebooter7256995069670921967.jar"/>
-    <property name="BASE_URI" value="https://api.spotify.com"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/target/surefire/surefirebooter10562794610753660997.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -44,9 +43,8 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/lb/2_7w0vk14fx1rczxvrymmd540000gn/T/"/>
     <property name="java.version" value="16.0.2"/>
-    <property name="user.dir" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework"/>
+    <property name="user.dir" value="/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.library.path" value="/Users/mehuljain/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
@@ -56,7 +54,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoTests" time="7.111">
+  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistDirectTests" time="6.552">
     <system-out><![CDATA[Renewing the token...
 Request method:	POST
 Request URI:	https://accounts.spotify.com/api/token
@@ -74,12 +72,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-date: Sun, 29 Aug 2021 18:15:33 GMT
+date: Mon, 30 Aug 2021 14:30:59 GMT
 content-type: application/json
 vary: Accept-Encoding
-set-cookie: __Host-device_id=AQAJi_68_c0-ytzuqb9_a2RWwsnUVC6XDlL0vUO_afwPukGpLnysMYLwLS07_RAlRM6xQw7P6qLt0Gn8t51wK_b1ZxdfW_z4p0U;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: __Host-device_id=AQC86eCgtEmuqgWGJDznxCRM8jzaerSJhdHjX9AKAeyLVhs3TWbpnkoMmaZjRh46Pd1kjvCqX27DlmvYGXMr6nHtBg7a4CmU5Ng;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
 set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
-sp-trace-id: c9182f8f70fbad53
+sp-trace-id: b02ece8a16792676
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
@@ -89,25 +87,90 @@ Alt-Svc: clear
 Transfer-Encoding: chunked
 
 {
-    "access_token": "BQBDdKvfQFpWN_xd1hEW0TheKyKJlWIdpzGQd7E6U7M8qQhZpRuKZhY0FYmKsJOGFmkFBmU2C7-nKzdp1DH9QPnuZGvPfFqHNszp6o2AeyY8OuS8QbslLnNJa5y6rAFhCRpsuQMEgrulKDv1FoGhj3jH9-i5iPQPFKm-Qm4915GVrkPIh3q7jrgDJVH2pEExRF6Hi8omGC6xGTBjk6gGhVpWLM2qi4wV7yOaTospkIsi",
+    "access_token": "BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0",
     "token_type": "Bearer",
     "expires_in": 3600,
     "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
 }
-Starting TestupdateAPlaylist
-Starting TestshouldNotBeAbleToCreatePlaylist
+Token is good to use
+Token is good to use
 Starting TestgetAPlaylists
-Thread Id19
-Thread Id20
-Thread Id17
-Starting TestshouldBeAbleToCreatePlaylist
-Thread Id18
-Starting TestshouldNotBeAbleToCreatePlaylist
-Starting TestshouldBeAbleToCreatePlaylist
-Thread Id21
-Thread Id22
 Starting TestupdateAPlaylist
+Thread Id24
+Thread Id21
+Starting TestshouldNotBeAbleToCreatePlaylist
 Thread Id23
+Starting TestshouldBeAbleToCreatePlaylist
+Thread Id22
+Token is good to use
+Token is good to use
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/5aFRcvxTgyE4o00lFN4Gdi
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/2s7W6T7VNiUXgGITldoian
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mehul Automation Playlist Updated",
+    "description": "New playlist description updated",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "description": "New playlist description",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mehul Automation Playlist",
+    "description": "New playlist description",
+    "public": false
+}
 Token is good to use
 Request method:	GET
 Request URI:	https://api.spotify.com/v1/playlists/5aFRcvxTgyE4o00lFN4Gdi
@@ -137,18 +200,18 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Desc.2m_-3,I,,5E,_ _, __W",
-    "name": "Playlist- Aq_A_X- ",
+    "description": "Desc.-,T227,,,__hS x f,w-",
+    "name": "Playlist3 2 -,A_,,",
     "public": false
 }
-Request method:	PUT
-Request URI:	https://api.spotify.com/v1/playlists/2s7W6T7VNiUXgGITldoian
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQBDdKvfQFpWN_xd1hEW0TheKyKJlWIdpzGQd7E6U7M8qQhZpRuKZhY0FYmKsJOGFmkFBmU2C7-nKzdp1DH9QPnuZGvPfFqHNszp6o2AeyY8OuS8QbslLnNJa5y6rAFhCRpsuQMEgrulKDv1FoGhj3jH9-i5iPQPFKm-Qm4915GVrkPIh3q7jrgDJVH2pEExRF6Hi8omGC6xGTBjk6gGhVpWLM2qi4wV7yOaTospkIsi
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -156,7 +219,7 @@ Multiparts:		<none>
 Body:
 {
     "description": "Desc.Update Via Pojo",
-    "name": "Updating Playlist Via Pojo",
+    "name": "",
     "public": false
 }
 Request method:	POST
@@ -172,7 +235,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Desc. _P 9 qRC ,z l ___WY",
+    "description": "Desc. O__-_K5s3S7xo__-- ,",
     "name": "",
     "public": false
 }
@@ -183,15 +246,15 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer BQBDdKvfQFpWN_xd1hEW0TheKyKJlWIdpzGQd7E6U7M8qQhZpRuKZhY0FYmKsJOGFmkFBmU2C7-nKzdp1DH9QPnuZGvPfFqHNszp6o2AeyY8OuS8QbslLnNJa5y6rAFhCRpsuQMEgrulKDv1FoGhj3jH9-i5iPQPFKm-Qm4915GVrkPIh3q7jrgDJVH2pEExRF6Hi8omGC6xGTBjk6gGhVpWLM2qi4wV7yOaTospkIsi
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Desc. Via Pojo",
-    "name": "Creating Playlist Via Pojo",
+    "description": "Desc. Via Bulider",
+    "name": "Creating Playlist Via Pojo Builder",
     "public": false
 }
 Request method:	POST
@@ -207,27 +270,33 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "description": "Desc.-0  T__-  _5_ r,L6_ ",
-    "name": "Playlist6w--R _Y_ ",
+    "description": "Desc. D3Qf_iv,9 n  c - 25",
+    "name": "Playlist_-Cf_44-f_",
     "public": false
 }
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer BQBDdKvfQFpWN_xd1hEW0TheKyKJlWIdpzGQd7E6U7M8qQhZpRuKZhY0FYmKsJOGFmkFBmU2C7-nKzdp1DH9QPnuZGvPfFqHNszp6o2AeyY8OuS8QbslLnNJa5y6rAFhCRpsuQMEgrulKDv1FoGhj3jH9-i5iPQPFKm-Qm4915GVrkPIh3q7jrgDJVH2pEExRF6Hi8omGC6xGTBjk6gGhVpWLM2qi4wV7yOaTospkIsi
-				Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 30 Aug 2021 14:31:06 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
 {
-    "description": "Desc.Update Via Pojo",
-    "name": "",
-    "public": false
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
 }
 HTTP/1.1 200 OK
 content-type: application/json; charset=utf-8
@@ -242,7 +311,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Sun, 29 Aug 2021 18:15:42 GMT
+date: Mon, 30 Aug 2021 14:31:07 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -291,9 +360,10 @@ Transfer-Encoding: chunked
     "type": "playlist",
     "uri": "spotify:playlist:5aFRcvxTgyE4o00lFN4Gdi"
 }
-HTTP/1.1 400 Bad Request
+HTTP/1.1 201 Created
 content-type: application/json; charset=utf-8
 cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/6x2HzeHMDaoNb76C7J3jFe
 x-robots-tag: noindex, nofollow
 access-control-allow-origin: *
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
@@ -303,44 +373,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Sun, 29 Aug 2021 18:15:42 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: clear
-Transfer-Encoding: chunked
-
-{
-    "error": {
-        "status": 400,
-        "message": "Missing required field: name"
-    }
-}
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoTests" time="7.221"/>
-  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoTests" time="7.353"/>
-  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="7.112"/>
-  <testcase name="getAPlaylists" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="7.205"/>
-  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="7.242"/>
-  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="7.311">
-    <system-out><![CDATA[HTTP/1.1 201 Created
-content-type: application/json; charset=utf-8
-cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/3QOzp1BPpHYIF7DC4yh2OH
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Sun, 29 Aug 2021 18:15:42 GMT
+date: Mon, 30 Aug 2021 14:31:07 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: clear
@@ -348,20 +381,20 @@ Transfer-Encoding: chunked
 
 {
     "collaborative": false,
-    "description": "Desc.-0  T__-  _5_ r,L6_ ",
+    "description": "New playlist description",
     "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/3QOzp1BPpHYIF7DC4yh2OH"
+        "spotify": "https://open.spotify.com/playlist/6x2HzeHMDaoNb76C7J3jFe"
     },
     "followers": {
         "href": null,
         "total": 0
     },
-    "href": "https://api.spotify.com/v1/playlists/3QOzp1BPpHYIF7DC4yh2OH",
-    "id": "3QOzp1BPpHYIF7DC4yh2OH",
+    "href": "https://api.spotify.com/v1/playlists/6x2HzeHMDaoNb76C7J3jFe",
+    "id": "6x2HzeHMDaoNb76C7J3jFe",
     "images": [
         
     ],
-    "name": "Playlist6w--R _Y_ ",
+    "name": "Mehul Automation Playlist",
     "owner": {
         "display_name": "Mehul Jain",
         "external_urls": {
@@ -374,9 +407,9 @@ Transfer-Encoding: chunked
     },
     "primary_color": null,
     "public": false,
-    "snapshot_id": "MSwwYWE0YmI2NGYzYzRjNjZlNjhiOWE1MjY3ZGQ2ZjM2YzQwODk4ODFl",
+    "snapshot_id": "MSw3OTRhYmUzYjkxOGYwOWViMDRiYjdjMWE1OGNkYzQwN2RkNDc0ZDVj",
     "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/3QOzp1BPpHYIF7DC4yh2OH/tracks",
+        "href": "https://api.spotify.com/v1/playlists/6x2HzeHMDaoNb76C7J3jFe/tracks",
         "items": [
             
         ],
@@ -387,8 +420,401 @@ Transfer-Encoding: chunked
         "total": 0
     },
     "type": "playlist",
-    "uri": "spotify:playlist:3QOzp1BPpHYIF7DC4yh2OH"
+    "uri": "spotify:playlist:6x2HzeHMDaoNb76C7J3jFe"
+}
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjJhMjNjMjg4ZjgwZmU5NjI2ZTQwYWRmNTVkZTU1NzkzIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 30 Aug 2021 14:31:07 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Updated playlist description",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5aFRcvxTgyE4o00lFN4Gdi"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/5aFRcvxTgyE4o00lFN4Gdi",
+    "id": "5aFRcvxTgyE4o00lFN4Gdi",
+    "images": [
+        
+    ],
+    "name": "Updated Playlist Name",
+    "owner": {
+        "display_name": "Mehul Jain",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/h6iftu560uhm7y85jis3kd9nn"
+        },
+        "href": "https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn",
+        "id": "h6iftu560uhm7y85jis3kd9nn",
+        "type": "user",
+        "uri": "spotify:user:h6iftu560uhm7y85jis3kd9nn"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "NSxhNGI4MzUzNjYyY2I2NmUzNTYwMDM1Y2JmNTNlNGI2Y2MyODhiM2Rl",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5aFRcvxTgyE4o00lFN4Gdi/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5aFRcvxTgyE4o00lFN4Gdi"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistDirectTests" time="0.723">
+    <system-out><![CDATA[Starting TestshouldBeAbleToCreatePlaylist
+Thread Id21
+Starting TestshouldNotBeAbleToCreatePlaylist
+Thread Id25
+Starting TestupdateAPlaylist
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc. Via Bulider",
+    "name": "Creating Playlist Via Pojo Builder",
+    "public": false
+}
+Thread Id22
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/2s7W6T7VNiUXgGITldoian
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc.Update Via Pojo",
+    "name": "Updating Playlist Via Pojo",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc.Update Via Pojo",
+    "name": "",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc. Via Pojo",
+    "name": "Creating Playlist Via Pojo",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc.Update Via Pojo",
+    "name": "",
+    "public": false
+}
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/2s7W6T7VNiUXgGITldoian
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc.Update Via Pojo",
+    "name": "Updating Playlist Via Pojo",
+    "public": false
 }
 ]]></system-out>
   </testcase>
+  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistDirectTests" time="0.878"/>
+  <testcase name="getAPlaylists" classname="com.spotify.oauth2.tests.PlaylistDirectTests" time="0.878"/>
+  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="6.711"/>
+  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="0.202"/>
+  <testcase name="getAPlaylists" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="0.005"/>
+  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests" time="0.009"/>
+  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests" time="0.201">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 30 Aug 2021 14:31:07 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 30 Aug 2021 14:31:07 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/3RNlv2nu7Qx6pvXTiC0f1N
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 30 Aug 2021 14:31:07 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Desc. D3Qf_iv,9 n  c - 25",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3RNlv2nu7Qx6pvXTiC0f1N"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/3RNlv2nu7Qx6pvXTiC0f1N",
+    "id": "3RNlv2nu7Qx6pvXTiC0f1N",
+    "images": [
+        
+    ],
+    "name": "Playlist_-Cf_44-f_",
+    "owner": {
+        "display_name": "Mehul Jain",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/h6iftu560uhm7y85jis3kd9nn"
+        },
+        "href": "https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn",
+        "id": "h6iftu560uhm7y85jis3kd9nn",
+        "type": "user",
+        "uri": "spotify:user:h6iftu560uhm7y85jis3kd9nn"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSxhNWFiMGQ0ZGUyNmM0MGZjZDkxMzJkODAwYmQ3NjNhNWVmNTkxNzcz",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3RNlv2nu7Qx6pvXTiC0f1N/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3RNlv2nu7Qx6pvXTiC0f1N"
+}
+HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/2vwADy2ISmBRMemC0Egp69
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 30 Aug 2021 14:31:07 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Desc. Via Bulider",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2vwADy2ISmBRMemC0Egp69"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/2vwADy2ISmBRMemC0Egp69",
+    "id": "2vwADy2ISmBRMemC0Egp69",
+    "images": [
+        
+    ],
+    "name": "Creating Playlist Via Pojo Builder",
+    "owner": {
+        "display_name": "Mehul Jain",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/h6iftu560uhm7y85jis3kd9nn"
+        },
+        "href": "https://api.spotify.com/v1/users/h6iftu560uhm7y85jis3kd9nn",
+        "id": "h6iftu560uhm7y85jis3kd9nn",
+        "type": "user",
+        "uri": "spotify:user:h6iftu560uhm7y85jis3kd9nn"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSw5ZmNjM2Q2ZDIzMzM4MzM5ZjliYzA1YjdjMTAxY2M1ZGIzODkxZDFh",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2vwADy2ISmBRMemC0Egp69/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2vwADy2ISmBRMemC0Egp69"
+}
+Token is good to use
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests" time="0.005">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/2s7W6T7VNiUXgGITldoian
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCcDSEZh8sUCgU8fRpxezDl6xEGHsZSgOsUewMdxwAzGWNZ2l00LzT9thgxN_aRVBavphohFQhf7rSyEhJqF9n0v_XzrRc_-WDHQjqV53NlYeh4kU9bPNXqMIwYr0doxvNwElzhdQbranAdaYndAnFMUtmU1UfeJmkQJS-OYazPX8_foA0eshSxufsooom_PmuraSgySEmYI0lTA7tibtH8_kFsgmc7sx55fFBq5Q_0
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Desc.Update Via Pojo",
+    "name": "Updating Playlist Via Pojo",
+    "public": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests" time="0.893"/>
+  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternTests" time="0.789"/>
+  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternTests" time="0.789"/>
+  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternTests" time="0.904"/>
+  <testcase name="shouldNotBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoTests" time="0.902"/>
+  <testcase name="updateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoTests" time="0.951"/>
+  <testcase name="shouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistViaPojoTests" time="1.067"/>
 </testsuite>

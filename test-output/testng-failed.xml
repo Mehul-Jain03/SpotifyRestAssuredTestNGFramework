@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests">
+      <class name="com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests">
         <methods>
-          <include name="shouldNotBeAbleToCreatePlaylist"/>
-          <include name="getAPlaylists"/>
-          <include name="updateAPlaylist"/>
           <include name="shouldBeAbleToCreatePlaylist"/>
-          <include name="beforeMethod"/>
+          <include name="shouldNotBeAbleToCreatePlaylist"/>
+          <include name="updateAPlaylist"/>
         </methods>
-      </class> <!-- com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests -->
+      </class> <!-- com.spotify.oauth2.tests.PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,7 +8,7 @@ public class ConfigLoader {
 	private static ConfigLoader configLoader;
 	
 	private ConfigLoader() {
-		properties = PropertyUtils.propertyLoader("/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/Resources/config.properties");
+		properties = PropertyUtils.propertyLoader("/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/Resources/config.properties");
 	}
 	
 	public static ConfigLoader getInstance() {

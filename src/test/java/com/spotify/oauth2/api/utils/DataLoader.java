@@ -8,7 +8,7 @@ public class DataLoader {
 	private static DataLoader dataLoader;
 	
 	private DataLoader() {
-		properties = PropertyUtils.propertyLoader("/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredFramework/Resources/data.properties");
+		properties = PropertyUtils.propertyLoader("/Users/mehuljain/eclipse-workspace/SpotifyRestAssuredTestNGFramework/Resources/data.properties");
 	}
 	
 	public static DataLoader getInstance() {

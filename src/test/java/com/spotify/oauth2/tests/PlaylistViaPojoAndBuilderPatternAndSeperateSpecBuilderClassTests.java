@@ -2,6 +2,7 @@ package com.spotify.oauth2.tests;
 
 import org.testng.annotations.Test;
 import com.spotify.oauth2.api.SpecBuilder;
+import com.spotify.oauth2.api.TokenManager;
 import com.spotify.oauth2.pojo.Errors;
 import com.spotify.oauth2.pojo.Playlist;
 import static io.restassured.RestAssured.given;
@@ -14,6 +15,7 @@ public class PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests {
 	public void shouldBeAbleToCreatePlaylist(){
 		Playlist requestPlaylist = Playlist.builder().name("Creating Playlist Via Pojo Builder").description("Desc. Via Bulider")._public(false).build();		
 		Playlist responsePlaylist = given(SpecBuilder.getRequestSpec()).
+		header("Authorization","Bearer "+TokenManager.getToken()).
 		body(requestPlaylist).
 		when().
 		post("/users/h6iftu560uhm7y85jis3kd9nn/playlists").
@@ -33,6 +35,7 @@ public class PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests {
 		Playlist requestPlaylist = Playlist.builder().name("Updating Playlist Via Pojo").description("Desc.Update Via Pojo")._public(false).build();
 		
 		given(SpecBuilder.getRequestSpec()).
+		header("Authorization","Bearer "+TokenManager.getToken()).
 		body(requestPlaylist).
 		when().
 		put("/playlists/2s7W6T7VNiUXgGITldoian").
@@ -46,6 +49,7 @@ public class PlaylistViaPojoAndBuilderPatternAndSeperateSpecBuilderClassTests {
 		Playlist requestPlaylist = Playlist.builder().name("").description("Desc.Update Via Pojo")._public(false).build();
 		
 		Errors errorResponse =	given(SpecBuilder.getRequestSpec()).
+		header("Authorization","Bearer "+TokenManager.getToken()).
 		body(requestPlaylist).
 		when().
 		post("/users/h6iftu560uhm7y85jis3kd9nn/playlists").
