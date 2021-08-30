@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-29T18:15:35Z" name="Surefire suite" finished-at="2021-08-29T18:15:43Z" duration-ms="7706">
+    <groups>
+    </groups>
+    <test started-at="2021-08-29T18:15:35Z" name="Surefire test" finished-at="2021-08-29T18:15:43Z" duration-ms="7706">
+      <class name="com.spotify.oauth2.tests.PlaylistViaPojoTests">
+        <test-method is-config="true" signature="settingUp()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="settingUp" finished-at="2021-08-29T18:15:35Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaPojoTests.shouldBeAbleToCreatePlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaPojoTests.shouldNotBeAbleToCreatePlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaPojoTests.updateAPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateAPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="updateAPlaylist" finished-at="2021-08-29T18:15:43Z" duration-ms="7363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAPlaylist -->
+        <test-method signature="shouldNotBeAbleToCreatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="shouldNotBeAbleToCreatePlaylist" finished-at="2021-08-29T18:15:42Z" duration-ms="7091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToCreatePlaylist -->
+        <test-method signature="shouldBeAbleToCreatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaPojoTests@6e54bef6]" started-at="2021-08-29T18:15:35Z" name="shouldBeAbleToCreatePlaylist" finished-at="2021-08-29T18:15:42Z" duration-ms="7231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCreatePlaylist -->
+      </class> <!-- com.spotify.oauth2.tests.PlaylistViaPojoTests -->
+      <class name="com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests.shouldBeAbleToCreatePlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests.shouldNotBeAbleToCreatePlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests.getAPlaylists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="beforeMethod" finished-at="2021-08-29T18:15:35Z" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests.updateAPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateAPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="updateAPlaylist" description="Updating Playlist details" finished-at="2021-08-29T18:15:42Z" duration-ms="7254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAPlaylist -->
+        <test-method signature="getAPlaylists()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="getAPlaylists" description="Getting Playlist details" finished-at="2021-08-29T18:15:42Z" duration-ms="7208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPlaylists -->
+        <test-method signature="shouldBeAbleToCreatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="shouldBeAbleToCreatePlaylist" description="Creating a new playlist" finished-at="2021-08-29T18:15:42Z" duration-ms="7317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCreatePlaylist -->
+        <test-method signature="shouldNotBeAbleToCreatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests@4d745ac6]" started-at="2021-08-29T18:15:35Z" name="shouldNotBeAbleToCreatePlaylist" description="Missing Name field in creating playlist" finished-at="2021-08-29T18:15:42Z" duration-ms="7096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToCreatePlaylist -->
+      </class> <!-- com.spotify.oauth2.tests.PlaylistViaGenericMethodsTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
